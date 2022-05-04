@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.22)
+project(coroutines_from_all_in_one_guide_cpp_20)
+
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(coroutines_from_all_in_one_guide_cpp_20 main.cpp)
+target_compile_options(coroutines_from_all_in_one_guide_cpp_20 PRIVATE -fcoroutines)
